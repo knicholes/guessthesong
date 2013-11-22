@@ -1,8 +1,8 @@
 #GuessTheSong
-is a project to learn angularjs, socketio, and nodejs.
+is a project to learn [angularjs](http://www.angularjs.org/), [socketio](http://socket.io/), and [Node.js](http://nodejs.org/).
 This app will allow users to hop into a "chatroom" and listen, simultaneously, with a group of friends to the same song.  Each person may guess which song they're hearing.
 
-The initial plan is to use grooveshark's tinysong API (if possible-- research necessary) to retrieve songs from a playlist.  This playlist will initially be pre-defined, but eventually we should add the ability to add your own playlists that others can play with.
+The initial plan is to use grooveshark's [tinysong API](http://developers.grooveshark.com/tuts/tinysong) (if possible-- research necessary) to retrieve songs from a playlist.  This playlist will initially be pre-defined, but eventually we should add the ability to add your own playlists that others can play with.
 
 Things to discuss:
 
@@ -28,17 +28,18 @@ Things to discuss:
 
 [ ] Will there be different difficulty levels?  If so, by playlist (more obscure songs?), by time given to name the song, powerups to eliminate options or give hints?
 
+- - - 
 
+###Setup
+install [Node.js](http://nodejs.org/), [Git](http://git-scm.com/book/en/Getting-Started-Installing-Git) and optionally, [Ruby](https://www.ruby-lang.org/en/downloads/)
 
-#Setup
-install Node.js, Git and optionally, Ruby
 npm install -g yo
 
-#To test run
+###To test run
 grunt test
-#To preview app
+###To preview app
 grunt serve
-#To build app for deployment
+###To build app for deployment
 grunt
 
 
