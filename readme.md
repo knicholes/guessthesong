@@ -2,10 +2,7 @@
 readme.md
 install  Node.js, Git and optionally, Ruby
 
-npm install -g 
-npm install -g generator-angular
-yo angular
-bower install
+npm install -g yo
 #To test run
 grunt test
 #To preview app
