@@ -2,7 +2,7 @@
 is a project to learn [angularjs](http://www.angularjs.org/), [socketio](http://socket.io/), and [Node.js](http://nodejs.org/).
 This app will allow users to hop into a "chatroom" and listen, simultaneously, with a group of friends to the same song.  Each person may guess which song they're hearing.
 
-The initial plan is to use grooveshark's [tinysong API](http://developers.grooveshark.com/tuts/tinysong) (if possible-- research necessary) to retrieve songs from a playlist.  This playlist will initially be pre-defined, but eventually we should add the ability to add your own playlists that others can play with.
+Rdio has a sweet API which will be used to retrieve songs from a playlist.  This playlist will initially be pre-defined, but eventually we should add the ability to add your own playlists that others can play with.
 
 Things to discuss:
 
